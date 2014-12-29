@@ -1,0 +1,20 @@
+---
+layout: post
+description: Thoughts on technology, startups and making the world a better place. Occasional detours to fatherhood and half-baked makers projects.
+
+---
+
+
+  {% for post in site.posts %}
+     
+      
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.content | truncatewords:80}}
+      </div>
+      
+      <a href="{{ post.url }}" class="read-more">Read More</a>
+      <hr>
+
+  {% endfor %}

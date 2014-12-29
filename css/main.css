@@ -2,7 +2,6 @@
 
 /*General page details */
 html, body{
-	background: white;
 	margin: 0%;
 	padding: 0%;
 	height: 100%;
@@ -53,8 +52,11 @@ main a:hover{
 	background: #2B2E31;
 	color: #8d8989;
 	font-size: 20px;
+}
+
+.text a {
 	text-decoration: none;
-	
+
 }
 
 
@@ -109,11 +111,10 @@ nav a{
 
 }
 
-.fa-home, .fa-wrench, .fa-cloud{
+.fa-home, .fa-wrench, .fa-cloud, .fa-book{
 	color: white;
 	font-size: 2em;
 }
-
 
 
 /*page 1 details */
@@ -148,8 +149,14 @@ nav a{
 	
 }
 
-#blog h2{
-	color: #2B2E31;
+#blog h2 a{
+	color: black;
+}
+
+
+
+#blog a:hover {
+	color: black;
 }
 
 /* About page details */
@@ -175,14 +182,6 @@ li{
 	padding-bottom: 1em;
 }
 
-.about_icons, .about_icons a{
-	color: #8d8989;
-	text-align: center;
-	word-spacing: 3em;
-	font-size: 1.5em;
-	padding-top: 2.5%;
-	padding-bottom: 5%;
-}
 
 /*Project page specific*/
 .project img{
@@ -211,14 +210,80 @@ li{
 }
 
 
+/* Social media icons */
 
-footer{
+.about_icons, .about_icons a{
+	color: #8d8989;
+	text-align: center;
+	word-spacing: 3em;
+	font-size: 1.4em;
+	padding-top: 2.5%;
+	padding-bottom: 15%;
+}
+
+
+
+.footer{
 	text-align: center;
 	width: 100%;
-	display: inline-block;
-	margin-top: 10%;
+	display: block;
+	margin-top: 5%;
 	font-size: 14px;
+	color: #8d8989;
 
+}
+
+/* Post specific */
+
+.blog_head{
+	margin-right: 12%;
+	margin-left: 12%;
+	color: white;
+	padding-top: 3%;
+	font-size: 14px;
+}
+
+.blog_head h1 {
+	font-size: 36pxß;
+}
+
+.blog_head a{
+	text-decoration: none;
+}
+
+article{
+	background: white;
+	border-radius: .5em;
+	border: 1px solid #8d8989;
+	margin-top: 3%;
+	margin-bottom: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: black;
+	font-size: 16px;
+}
+
+article h1, article h1 a {
+	color: black;
+	font-size: 36px;
+	padding-bottom: 1.5%;
+}
+
+article a {
+	text-decoration: none;
+}
+
+article hr {
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+article a:hover{
+	color: inherit;
 }
 
 /* Ipad-ish devices */
@@ -255,6 +320,11 @@ footer{
 	margin-right: 0%;
 }
 
+article, .blog_head {
+	margin-left: 7%;
+	margin-right: 7%;
+
+}	
 
 }
 
@@ -274,14 +344,22 @@ nav{
 	font-size: 1.25em;
 }
 
+article, .blog_head {
+	border: 0px;
+	padding: 4%;
+	margin-left: 2%;
+	margin-right: 2%;
+
+}
+
 }
 
 /*Things to include
 
-[] Fix menu
-[] Fix mobile
-[] Add social links to bottom
-[] Add social and top to menu
+[x] Fix menu
+[x] Fix mobile
+[x] Add social links to bottom
+[x] Add social and top to menu
 
 
 [x] Side bar

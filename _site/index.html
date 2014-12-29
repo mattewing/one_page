@@ -1,96 +1,3 @@
-<!DOCTYPE html>
-<html lang ="en">
-
-	<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-<head>
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  
-  <!--Meta: title, description, author, etc-->
-  <title></title>
-
-  
-    <meta name="description" content="Matt Ewing's home on the world wide web. Founder at Scoot Networks and New Media Ventures. Former National Field Director at MoveOn.org.I love to build stuff that matters."" />
-    
-
-    <meta name="author" content="Matt Ewing" />
-
-  <!--CSS and fonts-->
-  <link rel="stylesheet" href="css/main.css">
- 
-  <link href='http://fonts.googleapis.com/css?family=Varela|Varela+Round' rel='stylesheet' type='text/css'>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-<!--facebook/twitter metadata -->
-  <meta name="twitter:creator" content="@mattewing"/>
-  <meta name="twitter:card" content="summary"/>
-
-  
-
-  
-
-  <meta property="og:title" content="" />
-  
-  
-    <meta name="og:description" content="Matt Ewing's home on the world wide web. Founder at Scoot Networks and New Media Ventures. Former National Field Director at MoveOn.org.I love to build stuff that matters."" />
-    
-
-   
-    <meta property="og:image" content="/assets/scoot_head_shot.jpg" />
-    
-
-    <!-- Scripts -->
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-
-  </head>
-
-
-
-<body>
-
-<nav>
-	<div class ="icon">	
-	<a href="http://mattewing.org/blog.html">	
-	<span class="fa-stack fa-fw"> <i class="fa fa-pencil-square fa-2x"> </i> </span>
-	<span class="nav_text">&nbsp;Blog</span></a>
-	</div>
-
-	<div class ="icon">	
-	<a href="#about">	
-	<span class="fa-stack fa-fw"> <i class="fa fa-book fa-2x"> </i> </span>
-	<span class="nav_text">&nbsp;About</span></a>
-	</div>
-
-	<div class ="icon">
-	<a href="#projects">
-		<span class="fa-stack fa-fw">
-		<i class="fa fa-square fa-stack-2x"></i>
-		<i class="fa fa-wrench fa-stack-1x"></i>
-		</span>
-		<span class="nav_text">&nbsp;Projects</span>
-	</a>
-	</div>
-
-	<div class ="icon">
-	<a href="#interwebs">
-		<span class="fa-stack fa-fw">
-		<i class="fa fa-square fa-stack-2x"></i>
-		<i class="fa fa-cloud fa-stack-1x"></i>
-		</span>
-		<span class="nav_text">&nbsp;Interwebs</span>
-	</a>
-	</div>
-
-		
-</nav>
-
-<main>
-
-<div class ="menu">
-<i class="fa fa-bars fa-2x"></i>
-</div>
-
 <div class = "text" id = "page1">
 	<h1>Hi, I'm Matt Ewing</h1>
 	<p>Organizer. Operator. Do-gooder in startup land.</p>
@@ -102,10 +9,10 @@
 
 <div class = "text" id = "blog">
 <div class = "blog_box">
-<h2>Recent Blog Posts</h2>
-<p>$OPWR: A great day for do-gooder startups</p>
-<p>Organizing lessons from a ride sharing company?</p>
-<p>Do-Gooders in Startup Land?! Meet Y Combinator's 1st Class of Non-profits</p>
+<h2><a href="blog/">Recent Blog Posts </a></h2>
+  
+
+
 </div>
 </div>
 
@@ -130,22 +37,13 @@
 	<li>As the Founding Director at <a href="http://newmediaventures.org">New Media Ventures</a>, I launched the country's first network of progressive angel investors.</li> 
 
 	<li>Most recently, I co-founded <a href="http://scootnetworks.com">Scoot Networks</a>, the world's first network of shared electric scooters (like CitiBike, but with electric vespas). I headed up marketing and operations, and grew the organization from the germ of an idea to a fully operational network. We've been luckly enough to be backed by some of the nation's leading angel and institutional investors. I'm incredibly proud of the work our team continues to do.</li>
-	<div id ="interwebs"></div>
+
 	<li>I've also had the privilege  to serve as an early advisor to some amazing do-gooder startups like <a href="http://upworthy.com">Upworthy</a> and <a href="https://ethicalelectric.com/">Ethical Electric</a>.</li>
 	</ul>
 
 	<p>I live in San Francisco with the lovely Natalie Foster (<a href="http://twitter.com/nataliefoster">@nataliefoster</a>) and our baby boy.
 	</p>
-	
-	<p>Some of my other homes on the interwebs:</p>
-	<div class = "about_icons">
-	<h1>
-		
-		<a href="http://twitter.com/mattewing"><i class="fa fa-twitter fa-1x"></i></a>
-		<a href="https://www.linkedin.com/in/mattewing"><i class="fa fa-linkedin fa-1x"></i></a>
-		<a href="https://github.com/mattewing"><i class="fa fa-github fa-1x"></i></a>
-	</h1>
-	</div>
+
 </div>
 
 <div class="text" id ="projects">
@@ -186,33 +84,14 @@
 			
 	</div>
 </div>
-
-<footer>
-	Built with &#9825; by yours truly.
-</footer>
-
 </div>
-</main>	
+	<div id ="interwebs"></div>
+	<div class = "about_icons">
+	<h1>
+		
+		<a href="http://twitter.com/mattewing"><i class="fa fa-twitter fa-1x"></i></a>
+		<a href="https://www.linkedin.com/in/mattewing"><i class="fa fa-linkedin fa-1x"></i></a>
+		<a href="https://github.com/mattewing"><i class="fa fa-github fa-1x"></i></a>
+	</h1>
+	</div>
 
-<script>
-
-//Nav toggle for mobile, triggered by menu click
-
-$(".menu").click(function() {
-	$("nav").toggle("slide");
-});
-
-$("nav").click(function() {
-	$("nav").toggle("slide");
-});
-
-
-</script>
-
-
-
-
-
-</body>
-
-</html>
